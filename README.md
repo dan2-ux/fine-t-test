@@ -29,6 +29,7 @@ Install the necesary library
   jetson-containers run -v /path/on/host:/path/in/container $(autotag bitsandbytes)
 </pre>
 **/path/on/host:**: is your current directory (consider executing **pwd** to get the current directory).
+
 **/path/incontainer**: is the path or folder your will initiate when activating jetson-containers.
 
 4. Install the necesary library.
