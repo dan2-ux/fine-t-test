@@ -5,7 +5,7 @@
 - Weights & Biases token
 - Jetson AGX Orin or Nvidia chip
 
-**# 1.** First step login into your hugging-face account by using token
+### ** 1.** First step login into your hugging-face account by using token
 <pre>
   # Install hugging face cli if not
   pip3 install huggingface_cli
@@ -14,7 +14,7 @@
   huggingface-cli login
 </pre>
 
-**# 2.** Install bitsandbytes.
+### **2.** Install bitsandbytes.
 Cloning the required repository
 <pre> git clone https://github.com/dusty-nv/jetson-containers.git </pre>
 Install the necesary library
@@ -25,7 +25,7 @@ Install the necesary library
   ./install.sh
 </pre>
 
-**# 3.**  Initiate the jetson-containers enviroment
+### **3.**  Initiate the jetson-containers enviroment
 <pre>
   jetson-containers run -v /path/on/host:/path/in/container $(autotag bitsandbytes)
 </pre>
@@ -33,10 +33,10 @@ Install the necesary library
 
 **/path/incontainer**: is the path or folder your will initiate when activating jetson-containers.
 
-**# 4.**  Install the necesary library.
+### **4.**  Install the necesary library.
 <pre> pip install peft trl wandb transformers --index-url https://pypi.org/simple </pre>
 
-**# 5.**  Executing the file for fine tune
+### **5.**  Executing the file for fine tune
 ## Create the python file
 <pre>
   # Create your file
