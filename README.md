@@ -34,7 +34,7 @@ Install the necesary library
 **/path/incontainer**: is the path or folder your will initiate when activating jetson-containers.
 
 ### **4.**  Install the necesary library.
-<pre> pip install peft trl wandb transformers --index-url https://pypi.org/simple </pre>
+<pre> pip install peft trl wandb transformers ollama --index-url https://pypi.org/simple </pre>
 
 ### **5.**  Executing the file for fine tune
 ## Create the python file
@@ -48,3 +48,10 @@ Install the necesary library
 <pre>
   python3 fine-tune-mistral.py
 </pre>
+
+### **5.** Merge and upload it into hugging face.
+<pre>
+  python3 merge-mistral-upload.py
+</pre>
+
+**Warning**: you may need to login into hugging face 
