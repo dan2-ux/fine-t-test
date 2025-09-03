@@ -41,7 +41,7 @@ Install the necesary library
 <pre>
   # Create your file
   tourch fine-tune-mistral.py
-  # Go inside the newly created file and paste all the code in **fine-tune-mistral.py** in
+  # Go inside the newly created file and paste all the code in " fine-tune-mistral.py " in
   nano fine-tune-mistral.py
 </pre>
 ## Executing the python file
