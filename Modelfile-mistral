@@ -1,0 +1,11 @@
+FROM /data/models/huggingface/models--dan2-ux--fine-tuned_mistral11/snapshots/83206cf39f9c80f3aea2e7f4f6ca7a0006bfb8a6/83206cf39f9c80f3aea2e7f4f6ca7a0006bfb8a6-7.2B-83206cf39f9c80f3aea2e7f4f6ca7a0006bfb8a6-F16.gguf
+
+# You can also add metadata:
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+
+TEMPLATE """
+{{ .System }}
+
+User: {{ .Prompt }}
+Assistant:"""
