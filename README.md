@@ -8,9 +8,11 @@
 ### **1.** First step login into your hugging-face account by using token
 
   # Install hugging face cli if not
+  
   pip3 install huggingface_cli
 
   # Login into hugging face cli
+  
   huggingface-cli login
 
 ### **2.** Install bitsandbytes.
