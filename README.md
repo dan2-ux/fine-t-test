@@ -114,7 +114,7 @@ Run the Modelfile-mistral scripts to create the Modelfile
   sudo ./Modelfile-mistral
 </pre>
 
-Create ollam model
+Create ollam model. However, you need to install ollama for jetson-container first.
 <pre>
   ollama create mymodel -f Modelfile
 </pre>
