@@ -89,6 +89,8 @@ First, return to workspace directory
   cd llama.cpp
   mkdir -p build
   cd build
+  apt update
+  apt install libcurl4-openssl-dev
   cmake ..
   cmake --build . --parallel
 </pre>
