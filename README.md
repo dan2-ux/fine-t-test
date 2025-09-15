@@ -35,7 +35,10 @@ Install the necesary library
 **/path/incontainer**: is the path or folder your will initiate when activating jetson-containers.
 
 ### **4.**  Install the necesary library.
-<pre> pip install peft trl wandb transformers datasets mistral_common --index-url https://pypi.org/simple </pre>
+<pre> 
+  pip install peft trl wandb transformers datasets mistral_common --index-url https://pypi.org/simple 
+  curl -fsSL https://ollama.com/install.sh | sh
+</pre>
 
 ### **5.**  Executing the file for fine tune
 ## Create the python file
